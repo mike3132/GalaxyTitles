@@ -1,0 +1,8 @@
+name: GalaxyTitles
+main: co.mcGalaxy.galaxytitles.GalaxyTitles
+version: '@version@'
+api-version: '1.16'
+author: Mike3132
+description: A custom title plugin
+depend:
+  - PlaceholderAPI

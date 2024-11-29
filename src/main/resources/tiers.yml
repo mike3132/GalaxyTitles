@@ -1,0 +1,9 @@
+basic:
+  display: "&7Basic"
+  templates:
+    shop: 'tier_display'
+    sorter: 'tier_sorter'
+  material: DIAMOND
+  lore:
+    - "&7This is the basic tier."
+    - "&7Tell us about your tier."

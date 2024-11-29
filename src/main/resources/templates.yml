@@ -1,0 +1,105 @@
+# Templates are used to turn your configuration
+# into an item that is fully-customizable.
+
+# Titles require 4 templates, one for unlocked, locked,
+# selected status, and one for inside the shop. You
+# can use title placeholders in these items only.
+
+# Tiers require 1 template, which will show in the shop.
+# You can use tier placeholders in these items only.
+
+# All other items require 1 template.
+# PAPI placeholders will work for all items.
+
+Title_unlocked:
+  material: "%title_material%"
+  enchanted: false
+  name: "%title_display%"
+  lore:
+    - "%title_lore%"
+    - ""
+    - "%title_tier%"
+    - "&aClick to select"
+
+Title_locked:
+  material: GRAY_STAINED_GLASS_PANE
+  enchanted: false
+  name: "%title_display%"
+  lore:
+    - "%title_lore%"
+    - ""
+    - "%title_tier%"
+    - "&cLocked"
+
+Title_selected:
+  material: "%title_material%"
+  enchanted: true
+  name: "%title_display%"
+  lore:
+    - "%title_lore%"
+    - ""
+    - "%title_tier%"
+    - "&bClick to deselect"
+
+Title_shop:
+  material: NAME_title
+  enchanted: true
+  name: "%title_display%"
+  lore:
+    - "%title_lore%"
+    - ""
+    - "&bClick to buy for %title_cost%"
+
+Title_shop_owned:
+  material: BLACK_STAINED_GLASS_PANE
+  enchanted: true
+  name: "%title_display%"
+  lore:
+    - "%title_lore%"
+    - ""
+    - "&cYou already own this title"
+
+tier_display:
+  material: "%tier_material%"
+  enchanted: true
+  name: "%tier_display%"
+  lore:
+    - "%tier_lore%"
+    - ""
+    - "&bClick to view title"
+    -
+tier_sorter:
+  material: "%tier_material%"
+  enchanted: false
+  name: "&7Sorter %tier_display%"
+  lore: []
+
+sorter:
+  material: LIME_STAINED_GLASS_PANE
+  enchanted: false
+  name: "&7Sorter {#0f0}All"
+  lore: []
+
+filter:
+  material: LIME_STAINED_GLASS_PANE
+  enchanted: false
+  name: "&7Filter {#0f0}All"
+  lore: []
+
+remove_title_button:
+  material: BARRIER
+  enchanted: false
+  name: "{#f00}Remove Title"
+  lore: []
+
+next_page_button:
+  material: PAPER
+  enchanted: false
+  name: "{#0f0}Next Page"
+  lore: []
+
+last_page_button:
+  material: PAPER
+  enchanted: false
+  name: "{#f00}Last Page"
+  lore: []

@@ -1,0 +1,17 @@
+# This is where you build all of your titles at
+
+example:
+  display: "&9[Example]"
+  tier: basic
+  permission: "tags.example"
+  material: NAME_TAG
+  cost: 100
+  templates:
+    unlocked: tag_unlocked
+    selected: tag_selected
+    locked: tag_locked
+    shop: tag_shop
+    shop_owned: tag_shop_owned
+  lore:
+    - "&7A tag used for examples."
+    - "&7Your lore can have multiple lines!"
