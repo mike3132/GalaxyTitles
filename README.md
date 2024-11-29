@@ -1,4 +1,4 @@
-# Galaxy Titles. Git test
+# Galaxy Titles.
 
 This plugin was created using the Rosewood template system and 
 fully implements RoseGarden.
