@@ -1,7 +1,6 @@
 # Galaxy Titles.
 
-This plugin requires RoseMenus and
-fully implements RoseGarden.
+This plugin requires RoseMenus and implements RoseGarden.
 
 ## Current Status
 > Alpha 1.0.0
