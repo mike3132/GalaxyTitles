@@ -1,6 +1,6 @@
 # Galaxy Titles.
 
-This plugin was created using the Rosewood template system and 
+This plugin requires RoseMenus and
 fully implements RoseGarden.
 
 ## Current Status
